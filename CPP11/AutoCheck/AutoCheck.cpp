@@ -7,7 +7,7 @@ int heavyComputation() { return 42; }
 
 static void RunAutoCheck()
 {
-	std::cout << "hello Auto Check";
+    std::cout << "hello Auto Check";
     // 1. Basic deduction
     auto i = 10;          // int
     auto d = 10.5;        // double
@@ -56,5 +56,11 @@ static void RunAutoCheck()
     auto& y = cj;
     //y = 100; in correct
 
-    return ;
+    return;
+}
+   
+static void forLoop()
+{
+
+
 }
