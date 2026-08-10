@@ -7,7 +7,7 @@ int heavyComputation() { return 42; }
 
 static void RunAutoCheck()
 {
-	std::cout << "hello Auto Check";
+    std::cout << "hello Auto Check";
     // 1. Basic deduction
     auto i = 10;          // int
     auto d = 10.5;        // double
@@ -56,5 +56,62 @@ static void RunAutoCheck()
     auto& y = cj;
     //y = 100; in correct
 
-    return ;
+    return;
+}
+   
+static void forLoop()
+{
+/*
+for (auto x : container)       // COPY — changes to x don't affect container
+for (auto& x : container)      // REFERENCE — changes to x modify container
+for (const auto& x : container) // CONST REF — read-only, no copy (most efficient for large objects)
+
+*/
+    std::vector<int> scores = { 85, 92, 78, 95, 88 };
+
+    // Read-only — use const auto&
+    std::cout << "Scores: ";
+    for (const auto& s : scores)
+        std::cout << s << " ";
+    std::cout << "\n";
+
+    // Modify in-place — use auto&
+    for (auto& s : scores)
+        s += 5;   // apply 5-point bonus
+
+    std::cout << "After bonus: ";
+    for (const auto& s : scores)
+        std::cout << s << " ";
+    std::cout << "\n";
+
+    // --- 2. Works on raw arrays too ---
+    int arr[] = { 1, 2, 3, 4, 5 };
+    int sum = 0;
+    for (const auto& x : arr)
+        sum += x;
+    std::cout << "Sum: " << sum << "\n";
+
+    // --- 3. Map — element is a pair ---
+    std::map<std::string, int> ages;
+    ages["Alice"] = 30;
+    ages["Bob"] = 25;
+    ages["Carol"] = 35;
+
+    for (const auto& entry : ages) {
+        // entry is std::pair<const std::string, int>
+        std::cout << entry.first << " is " << entry.second << "\n";
+    }
+
+    // --- 4. The copy trap — a common C++98 habit that hurts here ---
+    std::vector<std::string> names = { "Alice", "Bob", "Carol" };
+
+    for (auto name : names)       // BAD — copies each string
+        name += "!";              // modifies the copy, not the original
+    std::cout << names[0] << "\n";   // still "Alice"
+
+    for (auto& name : names)      // GOOD — modifies in place
+        name += "!";
+    std::cout << names[0] << "\n";   // now "Alice!"
+
+
 }
