@@ -3,12 +3,15 @@
 
 #include <iostream>
 #include "../AutoCheck/AutoCheck.cpp"
+#include "../AutoCheck/Lambda.cpp"
 
 int main()
 {
     std::cout << "Hello new World!\n";
-    RunAutoCheck();
-    forLoop();
+    //RunAutoCheck();
+    //forLoop();
+
+    LambdaCheck();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
