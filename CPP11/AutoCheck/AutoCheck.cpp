@@ -39,6 +39,22 @@ static void RunAutoCheck()
 
     for (const auto& name : names)   // const auto& = read-only, no copy
         std::cout << name << "\n";
+    //--------------------------
+    //5. auto deduces the value type, stripping refs and const:
+    //const int ci = 42;
+    //auto x = ci;   // x is int, NOT const int — cv-qualifiers stripped!
+    //auto& y = ci;  // y is const int& — ref preserves constness
+
+    // Auto strips const
+    // The rule is: auto deduces the value type, stripping top-level const and references.
+    const int cj = 42;
+    auto x = cj;   // x is int — a fresh copy, free to modify
+    x = 100;       // perfectly fine
+
+    //auto& y = ci; is a reference — it's an alias to ci itself, not a copy. Since ci is const int, 
+    // you cannot bind a non-const reference to it. The compiler is forced to deduce const int&.
+    auto& y = cj;
+    //y = 100; in correct
 
     return ;
 }
