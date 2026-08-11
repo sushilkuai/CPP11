@@ -2,9 +2,7 @@
 //
 
 #include <iostream>
-#include "../AutoCheck/AutoCheck.cpp"
-#include "../AutoCheck/Lambda.cpp"
-#include "../AutoCheck/NullOverRideFinalKeywards.cpp"
+#include "../AutoCheck/SomeFeaturesC11.h"
 
 int main()
 {

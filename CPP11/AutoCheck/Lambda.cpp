@@ -51,7 +51,7 @@ static void capture()
     auto above4 = [=, &threshold](int x) {return x > threshold; };
 
 }
-static void LambdaCheck()
+void LambdaCheck()
 {
     // 1. Basic Lambda
     auto greet = [](const std::string& name)

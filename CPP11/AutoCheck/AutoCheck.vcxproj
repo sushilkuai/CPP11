@@ -24,6 +24,7 @@
     <ProjectGuid>{619c9877-ab6c-434b-8ead-1c8d5131bb8f}</ProjectGuid>
     <RootNamespace>AutoCheck</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SomeFeaturesC11</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -126,6 +127,9 @@
     <ClCompile Include="AutoCheck.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="NullOverRideFinalKeywards.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SomeFeaturesC11.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,7 +5,7 @@
 
 int heavyComputation() { return 42; }
 
-static void RunAutoCheck()
+void RunAutoCheck()
 {
     std::cout << "hello Auto Check";
     // 1. Basic deduction
@@ -59,7 +59,7 @@ static void RunAutoCheck()
     return;
 }
    
-static void forLoop()
+void forLoop()
 {
 /*
 for (auto x : container)       // COPY — changes to x don't affect container
