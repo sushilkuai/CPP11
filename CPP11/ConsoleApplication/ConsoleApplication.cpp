@@ -2,13 +2,28 @@
 //
 
 #include <iostream>
-#include "../AutoCheck/AutoCheck.cpp"
+#include "../AutoCheck/SomeFeaturesC11.h"
 
 int main()
 {
     std::cout << "Hello new World!\n";
-    RunAutoCheck();
-    forLoop();
+    //1.
+    //RunAutoCheck();
+    // 
+    // 2. 
+    //forLoop();
+
+    // 3.
+    // LambdaCheck();
+
+    // 4. check null ptr
+    //checkNull();
+
+    // 5. smart pointers
+    //UniquePtrDemo();
+    sharedPtrDemo();
+    //CirculerDomo();
+    //safeCircularDemo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
