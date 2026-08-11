@@ -4,14 +4,22 @@
 #include <iostream>
 #include "../AutoCheck/AutoCheck.cpp"
 #include "../AutoCheck/Lambda.cpp"
+#include "../AutoCheck/NullOverRideFinalKeywards.cpp"
 
 int main()
 {
     std::cout << "Hello new World!\n";
+    //1.
     //RunAutoCheck();
+    // 
+    // 2. 
     //forLoop();
 
-    LambdaCheck();
+    // 3.
+    // LambdaCheck();
+
+    // 4. check null ptr
+    checkNull();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
