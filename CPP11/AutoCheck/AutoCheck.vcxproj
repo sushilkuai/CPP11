@@ -127,6 +127,7 @@
     <ClCompile Include="AutoCheck.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="NullOverRideFinalKeywards.cpp" />
+    <ClCompile Include="SmartPointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SomeFeaturesC11.h" />

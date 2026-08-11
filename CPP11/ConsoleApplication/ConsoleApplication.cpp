@@ -17,7 +17,13 @@ int main()
     // LambdaCheck();
 
     // 4. check null ptr
-    checkNull();
+    //checkNull();
+
+    // 5. smart pointers
+    //UniquePtrDemo();
+    sharedPtrDemo();
+    //CirculerDomo();
+    //safeCircularDemo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

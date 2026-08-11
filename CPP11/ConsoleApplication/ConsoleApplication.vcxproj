@@ -126,6 +126,7 @@
     <ClCompile Include="..\AutoCheck\AutoCheck.cpp" />
     <ClCompile Include="..\AutoCheck\Lambda.cpp" />
     <ClCompile Include="..\AutoCheck\NullOverRideFinalKeywards.cpp" />
+    <ClCompile Include="..\AutoCheck\SmartPointers.cpp" />
     <ClCompile Include="ConsoleApplication.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
