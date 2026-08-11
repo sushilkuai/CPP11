@@ -94,7 +94,7 @@ void UniquePtrDemo()
 void sharedPtrDemo() {
     std::shared_ptr<Player> p1(new Player("Alice", 100));
 
-    // better to use make_share
+    // better to use make_share. // Better — one allocation, exception-safe
     auto p2 = std::make_shared<Player>("B", 300);
     std::cout << "Count: " << p1.use_count() << "\n";  // 1
 
