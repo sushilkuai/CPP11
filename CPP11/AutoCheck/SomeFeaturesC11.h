@@ -8,3 +8,5 @@ void UniquePtrDemo();
 void sharedPtrDemo();
 void CirculerDomo();
 void safeCircularDemo();
+void checkMoveRValue();
+void TestConstExpr();

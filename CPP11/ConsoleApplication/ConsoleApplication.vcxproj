@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\AutoCheck\AutoCheck.cpp" />
+    <ClCompile Include="..\AutoCheck\InitilizerList.cpp" />
     <ClCompile Include="..\AutoCheck\Lambda.cpp" />
+    <ClCompile Include="..\AutoCheck\Move_RValue.cpp" />
     <ClCompile Include="..\AutoCheck\NullOverRideFinalKeywards.cpp" />
     <ClCompile Include="..\AutoCheck\SmartPointers.cpp" />
     <ClCompile Include="ConsoleApplication.cpp" />

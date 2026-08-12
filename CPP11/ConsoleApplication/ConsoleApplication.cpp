@@ -21,9 +21,13 @@ int main()
 
     // 5. smart pointers
     //UniquePtrDemo();
-    sharedPtrDemo();
+    //sharedPtrDemo();
     //CirculerDomo();
     //safeCircularDemo();
+
+    // 6. Move and R Values
+    checkMoveRValue();
+    TestConstExpr();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
