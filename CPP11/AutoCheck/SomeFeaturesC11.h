@@ -10,3 +10,4 @@ void CirculerDomo();
 void safeCircularDemo();
 void checkMoveRValue();
 void TestConstExpr();
+void CheckThreads();

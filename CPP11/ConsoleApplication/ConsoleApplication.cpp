@@ -26,8 +26,12 @@ int main()
     //safeCircularDemo();
 
     // 6. Move and R Values
-    checkMoveRValue();
-    TestConstExpr();
+    //checkMoveRValue();
+    //TestConstExpr();
+
+    // 7. Threads
+    CheckThreads();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

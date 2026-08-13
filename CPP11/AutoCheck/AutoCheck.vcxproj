@@ -130,6 +130,7 @@
     <ClCompile Include="Move_RValue.cpp" />
     <ClCompile Include="NullOverRideFinalKeywards.cpp" />
     <ClCompile Include="SmartPointers.cpp" />
+    <ClCompile Include="Threading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SomeFeaturesC11.h" />

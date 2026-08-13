@@ -36,5 +36,8 @@
     <ClCompile Include="..\AutoCheck\InitilizerList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\AutoCheck\Threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
