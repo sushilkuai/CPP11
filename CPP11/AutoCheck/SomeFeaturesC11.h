@@ -11,3 +11,4 @@ void safeCircularDemo();
 void checkMoveRValue();
 void TestConstExpr();
 void CheckThreads();
+void checkVarTemp();

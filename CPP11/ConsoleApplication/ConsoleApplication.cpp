@@ -30,7 +30,10 @@ int main()
     //TestConstExpr();
 
     // 7. Threads
-    CheckThreads();
+    //CheckThreads();
+
+    // 8. Variadic template
+    checkVarTemp();
 
 }
 

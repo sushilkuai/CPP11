@@ -130,6 +130,7 @@
     <ClCompile Include="..\AutoCheck\NullOverRideFinalKeywards.cpp" />
     <ClCompile Include="..\AutoCheck\SmartPointers.cpp" />
     <ClCompile Include="..\AutoCheck\Threading.cpp" />
+    <ClCompile Include="..\AutoCheck\VariadicTemplate.cpp" />
     <ClCompile Include="ConsoleApplication.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
