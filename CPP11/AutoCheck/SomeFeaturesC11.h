@@ -12,3 +12,6 @@ void checkMoveRValue();
 void TestConstExpr();
 void CheckThreads();
 void checkVarTemp();
+void checkEnum_Asserts();
+void checkTuple();
+void checkFunction_bind();

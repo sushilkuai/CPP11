@@ -33,7 +33,18 @@ int main()
     //CheckThreads();
 
     // 8. Variadic template
-    checkVarTemp();
+    //checkVarTemp();
+
+    // 9. static asserts and type_traits are importent to understand
+    //checkEnum_Asserts();
+
+    //10. tuples
+    //checkTuple();
+
+    //11. function and bind
+    checkFunction_bind();
+
+    // remember to ask about decltype and typedefs, callbacks
 
 }
 

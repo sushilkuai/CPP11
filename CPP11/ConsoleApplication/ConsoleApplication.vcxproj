@@ -124,14 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\AutoCheck\AutoCheck.cpp" />
+    <ClCompile Include="..\AutoCheck\Function_bind.cpp" />
     <ClCompile Include="..\AutoCheck\InitilizerList.cpp" />
     <ClCompile Include="..\AutoCheck\Lambda.cpp" />
     <ClCompile Include="..\AutoCheck\Move_RValue.cpp" />
     <ClCompile Include="..\AutoCheck\NullOverRideFinalKeywards.cpp" />
     <ClCompile Include="..\AutoCheck\SmartPointers.cpp" />
     <ClCompile Include="..\AutoCheck\Threading.cpp" />
+    <ClCompile Include="..\AutoCheck\tuples.cpp" />
     <ClCompile Include="..\AutoCheck\VariadicTemplate.cpp" />
     <ClCompile Include="ConsoleApplication.cpp" />
+    <ClCompile Include="EnumClass.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

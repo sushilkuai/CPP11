@@ -125,12 +125,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AutoCheck.cpp" />
+    <ClCompile Include="Function_bind.cpp" />
     <ClCompile Include="InitilizerList.cpp" />
     <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="Move_RValue.cpp" />
     <ClCompile Include="NullOverRideFinalKeywards.cpp" />
     <ClCompile Include="SmartPointers.cpp" />
     <ClCompile Include="Threading.cpp" />
+    <ClCompile Include="tuples.cpp" />
     <ClCompile Include="VariadicTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
